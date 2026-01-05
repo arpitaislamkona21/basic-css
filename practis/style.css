@@ -1,0 +1,78 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+
+}
+nav li:hover{
+    background-color: crimson;
+}
+nav li a{
+    text-decoration: none;
+}
+form label{
+    display: block;
+    margin-top: 15px;
+
+
+
+}
+table{
+    border-collapse: collapse;
+    background-color: black;
+    color: aliceblue;
+   
+}
+td
+{
+    border: 10px solid rgb(227, 215, 217);
+  
+}
+th
+{
+    background-color: orange;
+    border: 10px solid red;
+}
+tfoot td{
+   background-color: aqua;
+   text-align: center;
+   color: black;
+}
+.containar{
+    display: flex;
+    
+}
+ 
+ .containar div{
+    border: 2px solid red;
+    height: 50px;
+    width: 100px;
+    font-size: 2em;
+ }
+
+ .box{
+    display: flex;
+    gap: 50px;
+    justify-content:space-around;
+    flex-wrap:wrap;
+
+ }
+ .box div{
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+ }
+ .two{
+    background-color: blue;
+    height: 200px;
+    width: 100px;
+ }
+ .one{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+
+ }
